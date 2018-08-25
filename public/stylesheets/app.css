@@ -37,6 +37,7 @@ a{
     padding: 20px;
     background-color: mediumspringgreen;
     color: white;
+    border-radius: 10px;
 }
 
 .btn:hover {
