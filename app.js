@@ -9,10 +9,11 @@ app.use(express.static(__dirname + '/public'));
 
 
 //ROUTES
+// INDEX ROUTE
 app.get("/", function (req, res) {
     res.redirect("/randomizer");
 });
-
+//THE REQUEST ROUTE SHOW
 app.get("/randomizer", function (req, res) {
     request("https://talaikis.com/api/quotes/random/", function(error, response, body){
         var quote = JSON.parse(body);

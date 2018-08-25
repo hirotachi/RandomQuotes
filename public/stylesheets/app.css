@@ -10,3 +10,18 @@ body {
     height: 100vh;
     background-color: greenyellow;
 }
+.container {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.quote{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.author {
+    font-size: 2em;
+    text-transform: capitalize;
+    margin-left: 80%;
+}
