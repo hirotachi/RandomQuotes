@@ -1,0 +1,24 @@
+{
+  "name": "randomquotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirotachi/RandomQuotes.git"
+  },
+  "author": "Said Oudouane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hirotachi/RandomQuotes/issues"
+  },
+  "homepage": "https://github.com/hirotachi/RandomQuotes#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
